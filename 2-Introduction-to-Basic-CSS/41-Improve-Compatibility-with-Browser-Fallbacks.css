@@ -1,0 +1,15 @@
+/* improve compatibility with browser fallbacks
+ In that case, the browser will use whatever value it has for that property. If it can't find any other value set for that property,
+ it will revert to the default value, which is typically not ideal. To support the p;d browser by adding a more supported value*/
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
