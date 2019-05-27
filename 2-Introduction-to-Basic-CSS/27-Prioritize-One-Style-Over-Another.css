@@ -1,0 +1,13 @@
+/* The class will override the body's element;s color. */
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+
+  }
+</style>
+<h1 class="pink-text">   Hello World!</h1>
