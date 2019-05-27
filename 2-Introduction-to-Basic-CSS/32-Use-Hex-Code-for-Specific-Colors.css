@@ -1,0 +1,7 @@
+/* Hexadecimal code or hex code is use to represent colors in CSS
+we can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components.*/
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
